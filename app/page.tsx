@@ -15,7 +15,7 @@ export default function Home() {
       <WhyChooseUs />
       <GradeLevels />
       <MoreAboutUs />
-      <ContactUs />
+      {/* <ContactUs /> */}
     </main>
   );
 }
