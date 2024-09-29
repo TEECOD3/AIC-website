@@ -129,10 +129,10 @@
 
 import React from 'react'
 
-function contact-us() {
+function Contact() {
   return (
-    <div>contact-us</div>
+    <div>Contact</div>
   )
 }
 
-export default contact-us
+export default Contact

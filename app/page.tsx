@@ -1,4 +1,3 @@
-import ContactUs from "@/components/home-page/contact-us";
 import Founder from "@/components/home-page/founder";
 import GradeLevels from "@/components/home-page/grade-levels";
 import Hero from "@/components/home-page/hero";
