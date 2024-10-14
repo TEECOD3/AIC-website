@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "@/public/svg/AicLogo.svg";
+import Logo from "@/public/images/Logo.png";
 import AboutUsIcon from "../custom-icons/about-us-icon";
 import { Profile } from "../custom-icons/profile";
 import { Target } from "../custom-icons/target";
@@ -15,7 +15,7 @@ function SiteHeader() {
           alt="AIC logo"
           height={700}
           width={1000}
-          className="lg:h-[62.97px] lg:w-[78.47px] size-[60px]"
+          className="lg:h-[62.97px] lg:w-[78.47px] size-[60px] object-contain"
         />
         <nav>
           <ul className="lg:flex justify-between uppercase max-w-[380px] w-[490px] text-base hidden leading-[19.2px]">
