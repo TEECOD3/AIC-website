@@ -1,42 +1,67 @@
-import React from "react";
 import Image from "next/image";
-import Heroimage from "@/public/images/Heroimage.png";
+import Heroimageone from "@/public/images/AicHeroImage.png";
+import Heroimagetwo from "@/public/images/AicHero2.png";
 import { Button } from "../ui/button";
-import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import { Play } from "../custom-icons/play";
 
 function Hero() {
   return (
-    <div className="bg-[#FDF9FF] min-h-screen pt-6 pb-8">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-[33.315rem_1fr] gap-6 lg:gap-2  lg:h-[52.6875rem] w-full">
-        <div className="h-full w-full bg-water-blue px-4 lg:px-10 py-16">
-          <div className="flex flex-col gap-y-10 lg:gap-y-16">
-            <div className="flex gap-x-2 items-center">
-              <Button variant="outline">Nusery</Button>
-              <Button variant="outline">Primary</Button>
-              <Button variant="outline">Secondary</Button>
+    <div className="min-h-screen lg:h-[880px] mx-auto flex max-w-[1948px] flex-col lg:flex-row relative">
+      <div className=" h-full w-full flex flex-col lg:flex-row relative">
+        <div className="w-full  h-[650px] sm:h-[700px] lg:h-full py-28 lg:flex-1"></div>
+
+        <div className="w-full lg:w-[55%] h-[500px] lg:h-full flex lg:justify-end relative ">
+          <div className=" w-full lg:w-[75%] bg-light_blue h-full" />
+          <div className="absolute top-[-28%] lg:top-[15%] left-0 z-[12] px-3">
+            <div className="w-[300px] h-[360px] md:h-[550px] md:w-[509px] relative">
+              <Image
+                src={Heroimageone}
+                alt="Ais Heroimage"
+                className="object-cover h-full w-full"
+                fill
+                priority
+              />
             </div>
-
-            <h1 className="text-white text-[2rem] font-medium lg:leading-[38.2px] font-grotesk">
-              AL-ANSAR CENTRE FOR <br /> COMPREHENSIVE <br /> EDUCATION (ACCE)
-            </h1>
-
-            <h2 className="font-bold text-[2.3rem] lg:text-[4.1rem]  lg:leading-[78.3px] text-white font-maison">
-              Inspiring <br /> Excellence
-            </h2>
-
-            <div className=" text-[1.5rem] lg:text-[2rem] flex gapx-2 mt-44 text-white items-center">
-              <span>Enroll Now</span>
-              <ArrowTopRightIcon className="size-6 lg:size-10" />
+          </div>
+          <div className="absolute bottom-[5%] right-0 px-3">
+            <div className=" max-[340px]:w-[200px] w-[289px] sm:w-[400px] h-[300px] md:h-[600px] lg:h-[620px] md:w-[509px] relative">
+              <Image
+                src={Heroimagetwo}
+                alt="Ais Heroimage"
+                className="object-cover h-full w-full"
+                fill
+                priority
+              />
             </div>
           </div>
         </div>
-        <div className="w-full relative h-[432px] lg:h-full">
-          <Image
-            src={Heroimage}
-            alt="Heroimage"
-            className="object-cover"
-            fill
-          />
+      </div>
+
+      <div className="absolute top-0 left-0 h-full w-full  py-28 flex max-lg:mt-10 lg:items-center">
+        <div className="container mx-auto">
+          <div className="max-w-[517px] ">
+            <h2 className="text-4xl md:text-[56px] md:leading-[52.8px] font-milik">
+              A Different <br /> Kind Of <br /> Excellence
+            </h2>
+
+            <div className="mt-8 lg:mt-20 lg:max-w-[80%] text-dark_jungle_green text-base md:text-[18px]  lg:leading-[28.28px]">
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Velit ligula pretium id
+                eget amet. Senectus nulla tincidunt placerat non facilisi diam.{" "}
+              </p>
+              <div className="flex gap-x-2 mt-10">
+                <Button className="px-6 h-[45px] bg-water-blue font-semibold">
+                  Contact us
+                </Button>
+                <Button className="flex gap-x-2 items-center bg-transparent px-6 h-[45px] text-water-blue font-semibold hover:bg-transparent">
+                  <span>Learn more</span>{" "}
+                  <div className="size-[24px] rounded-full bg-water-blue flex items-center justify-center">
+                    <Play />
+                  </div>
+                </Button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,23 +4,34 @@ import Logo from "@/public/svg/AicLogo.svg";
 import AboutUsIcon from "../custom-icons/about-us-icon";
 import { Profile } from "../custom-icons/profile";
 import { Target } from "../custom-icons/target";
+import { Menu } from "../custom-icons/Menu";
 
 function SiteHeader() {
   return (
-    <header className="container flex items-center justify-between mx-auto">
-      <Image src={Logo} alt="AIC logo" height={120} width={120} />
-      <nav>
-        <ul className="lg:flex justify-between uppercase max-w-[490px] w-[490px] text-base font-medium hidden">
-          {React.Children.toArray(
-            navbarLinks.map((links) => (
-              <li className="flex items-center gap-x-2">
-                <span>{links.icons}</span>
-                <span>{links.label}</span>
-              </li>
-            ))
-          )}
-        </ul>
-      </nav>
+    <header className="py-4 fixed w-full bg-white z-[100]">
+      <div className="flex items-center justify-between container  mx-auto ">
+        <Image
+          src={Logo}
+          alt="AIC logo"
+          height={120}
+          width={120}
+          className="lg:h-[62.97px] lg:w-[78.47px] size-[60px]"
+        />
+        <nav>
+          <ul className="lg:flex justify-between uppercase max-w-[380px] w-[490px] text-base hidden leading-[19.2px]">
+            {React.Children.toArray(
+              navbarLinks.map((links) => (
+                <li className="flex items-center gap-x-2 cursor-pointer">
+                  <span>{links.label}</span>
+                </li>
+              ))
+            )}
+          </ul>
+        </nav>
+        <div className="block lg:hidden">
+          <Menu className="size-10" />
+        </div>
+      </div>
     </header>
   );
 }

@@ -1,138 +1,53 @@
-// "use client";
+import React from "react";
+import { Button } from "../ui/button";
+import Image from "next/image";
+import contactImage from "@/public/images/kidimage.png";
 
-// import { useState } from "react";
-// import { Button } from "@/components/ui/button";
-// import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
-// import {
-//   Accordion,
-//   AccordionContent,
-//   AccordionItem,
-//   AccordionTrigger,
-// } from "@/components/ui/accordion";
-
-// export default function Component() {
-//   const [name, setName] = useState("");
-//   const [email, setEmail] = useState("");
-//   const [message, setMessage] = useState("");
-
-//   const handleSubmit = (e: React.FormEvent) => {
-//     e.preventDefault();
-//     // Handle form submission logic here
-//     console.log("Form submitted:", { name, email, message });
-//   };
-
-//   return (
-//     <div className="container mx-auto lg:!px-0  border-[2px] border-water-blue my-16">
-//       <div className="grid grid-cols-1 md:grid-cols-2">
-//         {/* Form Section */}
-//         <div className="space-y-6 p-10">
-//           <h2 className="text-2xl font-bold">Contact Us</h2>
-//           <form onSubmit={handleSubmit} className="space-y-4">
-//             <div>
-//               <label
-//                 htmlFor="name"
-//                 className="block text-sm font-medium text-gray-700"
-//               >
-//                 Name
-//               </label>
-//               <Input
-//                 id="name"
-//                 value={name}
-//                 onChange={(e) => setName(e.target.value)}
-//                 required
-//               />
-//             </div>
-//             <div>
-//               <label
-//                 htmlFor="email"
-//                 className="block text-sm font-medium text-gray-700"
-//               >
-//                 Email
-//               </label>
-//               <Input
-//                 id="email"
-//                 type="email"
-//                 value={email}
-//                 onChange={(e) => setEmail(e.target.value)}
-//                 required
-//               />
-//             </div>
-//             <div>
-//               <label
-//                 htmlFor="message"
-//                 className="block text-sm font-medium text-gray-700"
-//               >
-//                 Message
-//               </label>
-//               <Textarea
-//                 id="message"
-//                 value={message}
-//                 onChange={(e) => setMessage(e.target.value)}
-//                 required
-//               />
-//             </div>
-//             <div className="w-full justify-end flex">
-//               <Button
-//                 type="submit"
-//                 variant="link"
-//                 className="font-semibold text-water-blue underline "
-//               >
-//                 Send Message
-//               </Button>
-//             </div>
-//           </form>
-//         </div>
-
-//         {/* FAQ Section */}
-//         <div className="space-y-6 bg-water-blue text-white p-10">
-//           <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
-//           <p className="">
-//             Find answers to our most commonly asked questions below. If you
-//             can't find what you're looking for, please don't hesitate to contact
-//             us using the form.
-//           </p>
-//           <Accordion type="single" collapsible className="w-full">
-//             <AccordionItem value="item-1">
-//               <AccordionTrigger>What services do you offer?</AccordionTrigger>
-//               <AccordionContent>
-//                 We offer a wide range of services including web development,
-//                 mobile app development, UI/UX design, and digital marketing
-//                 solutions.
-//               </AccordionContent>
-//             </AccordionItem>
-//             <AccordionItem value="item-2">
-//               <AccordionTrigger>
-//                 How long does a typical project take?
-//               </AccordionTrigger>
-//               <AccordionContent>
-//                 Project timelines vary depending on the scope and complexity. A
-//                 simple website might take 2-4 weeks, while a complex web
-//                 application could take several months.
-//               </AccordionContent>
-//             </AccordionItem>
-//             <AccordionItem value="item-3">
-//               <AccordionTrigger>
-//                 Do you offer support after the project is completed?
-//               </AccordionTrigger>
-//               <AccordionContent>
-//                 Yes, we offer ongoing support and maintenance packages to ensure
-//                 your project continues to run smoothly after launch.
-//               </AccordionContent>
-//             </AccordionItem>
-//           </Accordion>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-import React from 'react'
-
-function Contact() {
+function ContactUs() {
   return (
-    <div>Contact</div>
-  )
+    <section className="py-10 lg:py-20 bg-water-blue">
+      <div className="flex flex-col lg:flex-row container mx-auto gap-y-16">
+        <div className="flex items-center justify-center w-full">
+          <div className="text-center space-y-10">
+            <h2 className="text-3xl lg:text-5xl font-bold text-white font-milik">
+              Tap To Make Enquires About Our School
+            </h2>
+
+            <p className="text-white lg:text-[18px] lg:max-w-[60%] mx-auto">
+              Thank you for inquiring into our school. Before we get started,
+              let&apos;s get your full name and email address.
+            </p>
+
+            <div className="gap-y-5 flex flex-col lg:max-w-[70%]  mx-auto">
+              <input
+                className="border-white bg-transparent border-[1px] h-[45px] outline-none text-white placeholder:text-white/60 px-3"
+                placeholder="First Name"
+              />
+              <input
+                className="border-white bg-transparent border-[1px] h-[45px] outline-none placeholder:text-white/60 px-3 "
+                placeholder="Email Address"
+              />
+              <Button className="bg-white text-water-blue hover:bg-white font-semibold w-[240px] py-6 px-10 mx-auto ">
+                Submit
+              </Button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex items-center justify-center px-3">
+          <div className="h-[400px] sm:h-[500px] w-[403px] relative rotate-6">
+            <Image
+              src={contactImage}
+              alt="founder-image"
+              className="object-cover h-full w-full"
+              priority
+              loading="eager"
+              fill
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Contact
+export default ContactUs;

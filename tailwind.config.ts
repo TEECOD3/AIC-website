@@ -17,14 +17,17 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        grotesk: "var(--font-cabinet-grostesk)",
-        maison: "var(--font-maison-Neue)",
+        milik: "var(--font-milik)",
+        proxima: "var(--font-proxima)",
       },
       colors: {
+        light_blue: "#B2E1F3",
+        dark_jungle_green: "#1E1E1E",
         merino: "#F6EFEC",
         "muted-blue": "#267A96",
         "muddy-waters": "#BF8260",
         "water-blue": "#0E8FC3",
+        "aero-blue": "#C5FFE0",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
