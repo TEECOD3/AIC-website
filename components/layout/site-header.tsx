@@ -13,8 +13,8 @@ function SiteHeader() {
         <Image
           src={Logo}
           alt="AIC logo"
-          height={120}
-          width={120}
+          height={700}
+          width={1000}
           className="lg:h-[62.97px] lg:w-[78.47px] size-[60px]"
         />
         <nav>
