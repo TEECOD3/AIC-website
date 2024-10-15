@@ -26,8 +26,8 @@ export default function GradeLevels() {
           </div>
           <div className="absolute top-0 left-0 h-full w-full flex flex-col lg:flex-row ">
             <div className="w-full h-[600px] lg:h-full"></div>
-            <div className="w-full flex items-center ">
-              <div className="w-full h-[400px]  max-lg:mt-10 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
+            <div className="w-full flex items-center max-lg:mt-10">
+              <div className="w-full max-sm:h-[400px] h-[350px]    max-sm:mt-10 max-lg:mt-32 lg:h-[80%] p-6 lg:p-16  bg-white shadow-sm flex items-center">
                 <div className="w-full flex-col flex gap-y-4">
                   <h3 className="text-[35px] lg:text-[45px] font-milik">
                     Nusery
@@ -65,7 +65,7 @@ export default function GradeLevels() {
           <div className="absolute top-0 left-0 h-full w-full flex flex-col lg:flex-row ">
             <div className="w-full h-[600px] lg:h-full"></div>
             <div className="w-full flex items-center ">
-              <div className="w-full h-[400px]  max-lg:mt-10 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
+              <div className="w-full max-sm:h-[400px] h-[350px]    max-sm:mt-10 max-lg:mt-32 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
                 <div className="w-full flex-col flex gap-y-4">
                   <h3 className="text-[35px] lg:text-[45px] font-milik">
                     PRIMARY
@@ -104,7 +104,7 @@ export default function GradeLevels() {
           <div className="absolute top-0 left-0 h-full w-full flex flex-col lg:flex-row ">
             <div className="w-full h-[600px] lg:h-full"></div>
             <div className="w-full flex items-center ">
-              <div className="w-full h-[400px]  max-lg:mt-10 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
+              <div className="w-full max-sm:h-[400px] h-[350px]   max-sm:mt-10 max-lg:mt-32 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
                 <div className="w-full flex-col flex gap-y-4">
                   <h3 className="text-[35px] lg:text-[45px] font-milik">
                     SECONDARY
@@ -143,9 +143,9 @@ export default function GradeLevels() {
           <div className="absolute top-0 left-0 h-full w-full flex flex-col lg:flex-row ">
             <div className="w-full h-[600px] lg:h-full"></div>
             <div className="w-full flex items-center ">
-              <div className="w-full h-[400px]  max-lg:mt-10 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
+              <div className="w-full max-[480px]:h-[380px] h-[350px]   max-lg:mt-32 lg:h-[80%] p-6 lg:p-16 bg-white shadow-sm flex items-center">
                 <div className="w-full flex-col flex gap-y-4">
-                  <h3 className="text-[35px] lg:text-[45px] font-milik">
+                  <h3 className=" max-[480px]:text-[25px] text-[35px] lg:text-[45px] font-milik">
                     ADULTS & CHILDREN
                   </h3>
                   <p>(Ages 5-8) </p>
