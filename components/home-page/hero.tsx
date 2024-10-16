@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="min-h-screen lg:h-[880px] mx-auto flex max-w-[1948px] flex-col lg:flex-row relative">
       <div className=" h-full w-full flex flex-col lg:flex-row relative">
-        <div className="w-full  h-[650px] sm:h-[700px] lg:h-full py-28 lg:flex-1"></div>
+        <div className="w-full  h-[700px] lg:h-full py-28 lg:flex-1"></div>
 
         <div className="w-full lg:w-[55%] h-[500px] lg:h-full flex lg:justify-end relative ">
           <div className=" w-full lg:w-[75%] bg-light_blue h-full" />
