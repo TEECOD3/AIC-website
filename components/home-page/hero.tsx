@@ -40,11 +40,17 @@ function Hero() {
       <div className="absolute top-0 left-0 h-full w-full  py-28 flex max-lg:mt-10 lg:items-center">
         <div className="container mx-auto">
           <div className="max-w-[517px] ">
-            <h2 className="text-4xl md:text-[56px] md:leading-[52.8px] font-milik">
-              A Different <br /> Kind Of <br /> Excellence
-            </h2>
+            <div className="">
+              <h2 className="text-4xl md:text-[56px] md:leading-[52.8px] font-milik">
+                A Different <br /> Kind Of <br />{" "}
+              </h2>
+              <p className="bg-[#A6D0B0] py-4 px-2 mt-1 max-w-max lg:leading-[40px] text-4xl md:text-[56px] md:leading-[52.8px] font-milik">
+                Excellence
+              </p>
+            </div>
 
             <div className="mt-8 lg:mt-20 lg:max-w-[80%] text-dark_jungle_green text-base md:text-[18px]  lg:leading-[28.28px]">
+              <div className=" w-[70px] lg:w-[100px] h-[2px] bg-water-blue my-4"></div>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Velit ligula pretium id
                 eget amet. Senectus nulla tincidunt placerat non facilisi diam.{" "}
