@@ -23,7 +23,7 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="absolute bottom-[5%] right-0 max-sm:px-3 bg-red-400">
+          <div className="absolute bottom-[5%] right-0 max-sm:px-3 ">
             <div className="max-[340px]:w-[200px] w-[289px] sm:w-[400px] h-[300px] md:h-[600px] lg:h-[620px] md:w-[509px] relative">
               <Image
                 src={Heroimagetwo}
