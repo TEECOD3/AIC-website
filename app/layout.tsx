@@ -5,8 +5,8 @@ import SiteHeader from "@/components/layout/site-header";
 import SiteFooter from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
-  title: "AL-ANSAR CENTRE FOR COMPREHENSIVE EDUCATION (ACCE)",
-  description: "AL-ANSAR CENTRE FOR COMPREHENSIVE EDUCATION (ACCE)",
+  title: "AL-ANSAR INTERNATIONAL COLLEGE",
+  description: "AL-ANSAR INTERNATIONAL COLLEGE (AIC)",
   icons: {
     icon: "/svg/AicLogo.svg",
   },
