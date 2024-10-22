@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
-import contactImage from "@/public/images/kidimage.png";
+import contactImage from "@/public/images/1.jpg";
 
 function ContactUs() {
   return (

@@ -1,5 +1,8 @@
 "use client";
-import firstimage from "@/public/images/childrenimage.png";
+import firstimage from "@/public/images/7.jpg";
+import secondimage from "@/public/images/7.jpg";
+import thirdimage from "@/public/images/3.jpg";
+import fourthimage from "@/public/images/4.jpg";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
@@ -56,7 +59,7 @@ export default function GradeLevels() {
             <div className="w-full flex lg:h-full flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] h-[450px] lg:h-full relative">
                 <Image
-                  src={firstimage}
+                  src={secondimage}
                   alt="GradeLevels image"
                   className="h-full w-full object-cover"
                   fill
@@ -95,7 +98,7 @@ export default function GradeLevels() {
             <div className="w-full flex lg:h-full flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] h-[450px] lg:h-full relative">
                 <Image
-                  src={firstimage}
+                  src={thirdimage}
                   alt="GradeLevels image"
                   className="h-full w-full object-cover"
                   fill
@@ -134,7 +137,7 @@ export default function GradeLevels() {
             <div className="w-full flex lg:h-full flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] h-[450px] lg:h-full relative">
                 <Image
-                  src={firstimage}
+                  src={fourthimage}
                   alt="GradeLevels image"
                   className="h-full w-full object-cover"
                   fill

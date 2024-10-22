@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Heroimageone from "@/public/images/AicHeroImage.png";
-import Heroimagetwo from "@/public/images/AicHero2.png";
+import Heroimageone from "@/public/images/cuteclass.jpg";
+import Heroimagetwo from "@/public/images/5.jpg";
 import { Button } from "../ui/button";
 import { Play } from "../custom-icons/play";
 

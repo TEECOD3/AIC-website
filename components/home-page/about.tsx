@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image from "@/public/images/classrom.png";
+import image from "@/public/images/fac-canteen.png";
 import { Play } from "../custom-icons/playwhite";
 
 function About() {

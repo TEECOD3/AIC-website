@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import NewletterImage1 from "@/public/images/newsletter1.png";
-import NewsletterImage2 from "@/public/images/newsletter2.png";
+import NewletterImage1 from "@/public/images/7.jpg";
+import NewsletterImage2 from "@/public/images/2.jpg";
 import { Button } from "../ui/button";
 
 function Newsletter() {

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import ClassRoomImage1 from "@/public/images/classrom.png";
-import ClassRoomImage2 from "@/public/images/classRoom2.png";
-import ClassRoomImage4 from "@/public/images/classroom3.png";
+import ClassRoomImage1 from "@/public/images/fac-ball.png";
+import ClassRoomImage2 from "@/public/images/fac-clinic.png";
+import ClassRoomImage4 from "@/public/images/fac-boarding.png";
 
 function ClassRoomLook() {
   return (

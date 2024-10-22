@@ -42,7 +42,8 @@ function SiteFooter() {
             <li>Portals</li>
           </ul>
         </div>
-        <div className="">
+
+        <div className="lg:hidden">
           <Image
             src={Logo}
             alt="AIC logo"

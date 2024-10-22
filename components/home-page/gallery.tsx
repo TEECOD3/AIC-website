@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import Galleryimage1 from "@/public/images/childrenplayingimage.png";
+import Galleryimage1 from "@/public/images/7.jpg";
+import Galleryimage2 from "@/public/images/1.jpg";
+import Galleryimage3 from "@/public/images/3.jpg";
+import Galleryimage4 from "@/public/images/cuteclass.jpg";
 
 function Gallery() {
   return (
@@ -29,7 +32,7 @@ function Gallery() {
           <div className="w-full relative">
             <div className="relative h-96 lg:h-[500px] lg:w-[80%] mx-auto w-full mt-10">
               <Image
-                src={Galleryimage1}
+                src={Galleryimage4}
                 alt="Ais Newsletter Image"
                 className="object-cover"
                 fill
@@ -42,7 +45,7 @@ function Gallery() {
           <div className="w-full relative">
             <div className="relative h-96 lg:h-[500px] lg:w-[80%] mx-auto w-full mt-10">
               <Image
-                src={Galleryimage1}
+                src={Galleryimage2}
                 alt="Ais Newsletter Image"
                 className="object-cover"
                 fill
@@ -55,7 +58,7 @@ function Gallery() {
           <div className="w-full relative">
             <div className="relative h-96 lg:h-[500px] lg:w-[80%] mx-auto w-full mt-10">
               <Image
-                src={Galleryimage1}
+                src={Galleryimage3}
                 alt="Ais Newsletter Image"
                 className="object-cover"
                 fill
